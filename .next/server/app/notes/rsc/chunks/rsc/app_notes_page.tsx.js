@@ -13,7 +13,7 @@ var __TURBOPACK__imported__module__$5b$project$2d$with$2d$next$5d2f$app$2f$notes
 ;
 ;
 async function getNotes() {
-    const results = await fetch('http://127.0.01:8090/api/collections/notes/records?page=1&perPage=30', {
+    const results = await fetch('http:127.0.01:8090/api/collections/notes/records?page=1&perPage=30', {
         cache: 'no-store'
     });
     const data = await results.json();
@@ -27,7 +27,7 @@ async function NotesPage() {
                 children: "Notes"
             }, void 0, false, {
                 fileName: "<app/notes/page.tsx>",
-                lineNumber: 17,
+                lineNumber: 32,
                 columnNumber: 7
             }, this),
             __TURBOPACK__imported__module__$5b$project$2d$with$2d$next$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__["jsxDEV"]("div", {
@@ -37,26 +37,26 @@ async function NotesPage() {
                         note: note
                     }, note.id, false, {
                         fileName: "<app/notes/page.tsx>",
-                        lineNumber: 20,
+                        lineNumber: 35,
                         columnNumber: 18
                     }, this);
                 })
             }, void 0, false, {
                 fileName: "<app/notes/page.tsx>",
-                lineNumber: 18,
+                lineNumber: 33,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "<app/notes/page.tsx>",
-        lineNumber: 16,
+        lineNumber: 31,
         columnNumber: 5
     }, this);
 }
 function Note({ note  }) {
     const { id , title , content , created  } = note || {};
     return __TURBOPACK__imported__module__$5b$project$2d$with$2d$next$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$2d$with$2d$next$5d2f$node_modules$2f$next$2f$link$2e$js__["default"], {
-        href: `notes/${id}`,
+        href: `/notes/${id}`,
         children: __TURBOPACK__imported__module__$5b$project$2d$with$2d$next$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__["jsxDEV"]("div", {
             className: __TURBOPACK__imported__module__$5b$project$2d$with$2d$next$5d2f$app$2f$notes$2f$Notes$2e$module$2e$css__["default"].note,
             children: [
@@ -64,32 +64,32 @@ function Note({ note  }) {
                     children: title
                 }, void 0, false, {
                     fileName: "<app/notes/page.tsx>",
-                    lineNumber: 33,
+                    lineNumber: 48,
                     columnNumber: 9
                 }, this),
                 __TURBOPACK__imported__module__$5b$project$2d$with$2d$next$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__["jsxDEV"]("h5", {
                     children: content
                 }, void 0, false, {
                     fileName: "<app/notes/page.tsx>",
-                    lineNumber: 34,
+                    lineNumber: 49,
                     columnNumber: 9
                 }, this),
                 __TURBOPACK__imported__module__$5b$project$2d$with$2d$next$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__["jsxDEV"]("p", {
                     children: created
                 }, void 0, false, {
                     fileName: "<app/notes/page.tsx>",
-                    lineNumber: 35,
+                    lineNumber: 50,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "<app/notes/page.tsx>",
-            lineNumber: 32,
+            lineNumber: 47,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "<app/notes/page.tsx>",
-        lineNumber: 31,
+        lineNumber: 46,
         columnNumber: 5
     }, this);
 }
