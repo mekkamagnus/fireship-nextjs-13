@@ -1,11 +1,12 @@
 Error.stackTraceLimit = 100;
 global.self = global;
-require("./chunks/ssr/node_modules_c9c76f.js");
+require("./chunks/ssr/node_modules_19c483.js");
 require("./chunks/ssr/[embedded_modules]_@vercel_turbopack-next_internal_http.ts.js");
 require("./chunks/ssr/[embedded_modules]_@vercel_turbopack-next_polyfill_async-local-storage.js");
 require("./chunks/ssr/[embedded_modules]_@vercel_turbopack-next_ipc_index.ts.js");
 require("./chunks/ssr/[embedded_modules]_@vercel_turbopack-next_compiled_stacktrace-parser_index.js");
-require("./chunks/ssr/_b82e85.js");
+require("./chunks/ssr/_daddc6.js");
+require("./chunks/ssr/app_notes_CreateNote.tsx.js");
 require("./chunks/rsc/app_layout.tsx.js");
 require("./chunks/rsc/app_head.tsx.js");
 require("./chunks/rsc/app_notes_page.tsx.js");
