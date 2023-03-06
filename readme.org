@@ -1,0 +1,4 @@
+
+** Overview
+- Just exploring Next.js through this Fireship project
+- [[id:2916F9DB-5A4D-4AED-A559-7C91BD79FA24][Next.js 13 - The Basics - Fireship]]
